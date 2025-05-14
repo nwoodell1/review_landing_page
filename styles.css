@@ -17,15 +17,47 @@ li{
 
 img{
     height: 300px;
+    width: 300px;
 }
 
-#secion1{
+#section1{
     display: flex;
     flex-direction: row;
-    border: red; 
-    border-width: 2px;
+    justify-content: space-between;
 }
 
-#1left{
+#oneleft{
     display: flex;
+    flex-direction: column;
 }
+
+#section2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.twoprime{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#planets{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#twotitle{
+    align-self: center;
+}
+
+#section3{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    justify-content: right;
+}
+
