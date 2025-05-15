@@ -58,6 +58,40 @@ img{
     display: flex;
     flex-direction: column;
     padding: 100px;
-    justify-content: right;
+}
+
+#signature{
+   align-self: flex-end;
+}
+
+#section4{
+    padding: 50px;
+}
+
+#box{
+    display: flex;
+    justify-content: space-between;
+    background-color: blue;
+    color: white;
+    padding: 30px;
+    align-content: center;
+}
+
+#boxleft{
+    display: flex;
+    flex-direction: column;
+}
+
+#boxright{
+    align-self: flex-end;
+    justify-self: center;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 
